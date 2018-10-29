@@ -41,6 +41,13 @@ int main(
         cout << "Test passed" << endl;
     }
 
+    result |= EXPECT_EQUAL(list.getTask(2), "test2");
+
+    if (result != 0)
+    {
+        cout << "Test not passed" << endl;
+    }
+
     return result;
 }
 

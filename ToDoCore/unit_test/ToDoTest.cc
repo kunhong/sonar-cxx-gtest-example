@@ -54,6 +54,7 @@ namespace testing
 
         ASSERT_THAT(list.size(),     Eq(size_t(1)));
         EXPECT_THAT(list.getTask(0), Eq(tasks[0]));
+        EXPECT_THAT(list.getTask(10), Eq(""));
     }
 
     TEST_F(ToDoTest, getTask_withThreeTasts_returnsCorrectStringForEachIndex)
