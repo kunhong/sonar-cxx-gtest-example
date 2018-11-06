@@ -1,0 +1,1 @@
+add_library(component1 component1.cc)

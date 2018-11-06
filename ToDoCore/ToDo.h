@@ -5,6 +5,9 @@
 #include <vector>
 
 
+namespace ToDoCore
+{
+
 class ToDo
 {
 public:
@@ -19,5 +22,7 @@ public:
 private:
     std::vector< std::string > this_tasks;
 };
+
+} // namespace ToDoCore
 
 #endif // TODO_H

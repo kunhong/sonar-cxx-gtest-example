@@ -1,6 +1,9 @@
 #include "ToDo.h"
 
 
+namespace ToDoCore
+{
+
 ToDo::ToDo()
 {
 }
@@ -36,3 +39,5 @@ std::string ToDo::getTask(
         return "";
     }
 }
+
+} // namespace ToDo
